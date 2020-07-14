@@ -11,5 +11,6 @@ class ArticleSerializer(serializers.ModelSerializer):
 class ReporterSerializer(serializers.ModelSerializer):
 
     class Meta:
-        models = models.Reporter
+        model = models.Reporter
         fields = '__all__'
+
